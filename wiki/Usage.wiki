@@ -25,7 +25,7 @@ There are four primary properties for the numeric spinner control. Here is examp
 
 *Value* is the current value displayed by the spinner.
 
-*`IncrementValue`* is the amount the up/down arrows add or subtract from the value.
+*!IncrementValue* is the amount the up/down arrows add or subtract from the value.
 
 == Notes ==
 
