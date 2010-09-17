@@ -7,15 +7,10 @@
         <pcl:NumericSpinnerControl Width="100" Minimum="0" Value="1" IncrementValue="0.5"/>
 
         <GroupBox Header="Group 1">
-            <StackPanel>
-                <pcl:RadioToggleButton x:Name="G1A" Content="Group 1 - A" GroupName="Test1"/>
-                <pcl:RadioToggleButton Content="Group 1 - B" GroupName="Test1"/>
-            </StackPanel>
-        </GroupBox>
-        <GroupBox Header="Group 2">
-            <StackPanel>
-                <pcl:RadioToggleButton Content="Group 2 - A" GroupName="Test2"/>
-                <pcl:RadioToggleButton Content="Group 2 - B" GroupName="Test2"/>
+            <StackPanel Width="60" >
+                <pcl:RadioToggleButton x:Name="G1A" Height="60"  Content="Choice A" GroupName="Test1"/>
+                <pcl:RadioToggleButton x:Name="G1B" Height="60" Content="Choice B" GroupName="Test1"/>
+                <pcl:RadioToggleButton x:Name="G1C" Height="60" Content="Choice C" GroupName="Test1"/>
             </StackPanel>
         </GroupBox>
     </StackPanel>
